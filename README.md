@@ -100,7 +100,7 @@ from StringIO import StringIO
 from bsdapi.BsdApi import Factory as BsdApiFactory
 
 api = BsdApiFactory().create(
-    id = '',
+    api_id = '',
     secret = '',
     host = 'client.bsd.net',
     port = 80,
